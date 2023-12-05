@@ -128,6 +128,30 @@ Akh/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/build
 .PHONY : Akh/fast
 
+libraries/libsais.obj: libraries/libsais.c.obj
+.PHONY : libraries/libsais.obj
+
+# target to build an object file
+libraries/libsais.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/libraries/libsais.c.obj
+.PHONY : libraries/libsais.c.obj
+
+libraries/libsais.i: libraries/libsais.c.i
+.PHONY : libraries/libsais.i
+
+# target to preprocess a source file
+libraries/libsais.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/libraries/libsais.c.i
+.PHONY : libraries/libsais.c.i
+
+libraries/libsais.s: libraries/libsais.c.s
+.PHONY : libraries/libsais.s
+
+# target to generate assembly for a file
+libraries/libsais.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/libraries/libsais.c.s
+.PHONY : libraries/libsais.c.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Akh
+	@echo ... libraries/libsais.obj
+	@echo ... libraries/libsais.i
+	@echo ... libraries/libsais.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

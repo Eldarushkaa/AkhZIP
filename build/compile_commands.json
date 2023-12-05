@@ -4,5 +4,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Akh.dir\\main.cpp.obj -c \"C:\\Users\\FlexStreet\\Documents\\VS Code projects\\akhzip\\main.cpp\"",
   "file": "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/main.cpp",
   "output": "CMakeFiles/Akh.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\Akh.dir\\libraries\\libsais.c.obj -c \"C:\\Users\\FlexStreet\\Documents\\VS Code projects\\akhzip\\libraries\\libsais.c\"",
+  "file": "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/libraries/libsais.c",
+  "output": "CMakeFiles/Akh.dir/libraries/libsais.c.obj"
 }
 ]
