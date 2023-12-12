@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "Akh.exe"
   "Akh.exe.manifest"
   "Akh.pdb"
+  "CMakeFiles/Akh.dir/algorithems.cpp.obj"
+  "CMakeFiles/Akh.dir/algorithems.cpp.obj.d"
   "CMakeFiles/Akh.dir/libraries/libsais.c.obj"
   "CMakeFiles/Akh.dir/libraries/libsais.c.obj.d"
   "CMakeFiles/Akh.dir/main.cpp.obj"

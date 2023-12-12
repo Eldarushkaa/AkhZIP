@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/libraries/libsais.c" "CMakeFiles/Akh.dir/libraries/libsais.c.obj" "gcc" "CMakeFiles/Akh.dir/libraries/libsais.c.obj.d"
+  "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/algorithems.cpp" "CMakeFiles/Akh.dir/algorithems.cpp.obj" "gcc" "CMakeFiles/Akh.dir/algorithems.cpp.obj.d"
   "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/main.cpp" "CMakeFiles/Akh.dir/main.cpp.obj" "gcc" "CMakeFiles/Akh.dir/main.cpp.obj.d"
   )
 

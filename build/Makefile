@@ -128,6 +128,30 @@ Akh/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/build
 .PHONY : Akh/fast
 
+algorithems.obj: algorithems.cpp.obj
+.PHONY : algorithems.obj
+
+# target to build an object file
+algorithems.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/algorithems.cpp.obj
+.PHONY : algorithems.cpp.obj
+
+algorithems.i: algorithems.cpp.i
+.PHONY : algorithems.i
+
+# target to preprocess a source file
+algorithems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/algorithems.cpp.i
+.PHONY : algorithems.cpp.i
+
+algorithems.s: algorithems.cpp.s
+.PHONY : algorithems.s
+
+# target to generate assembly for a file
+algorithems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Akh.dir\build.make CMakeFiles/Akh.dir/algorithems.cpp.s
+.PHONY : algorithems.cpp.s
+
 libraries/libsais.obj: libraries/libsais.c.obj
 .PHONY : libraries/libsais.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Akh
+	@echo ... algorithems.obj
+	@echo ... algorithems.i
+	@echo ... algorithems.s
 	@echo ... libraries/libsais.obj
 	@echo ... libraries/libsais.i
 	@echo ... libraries/libsais.s

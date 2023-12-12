@@ -10,5 +10,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\Akh.dir\\libraries\\libsais.c.obj -c \"C:\\Users\\FlexStreet\\Documents\\VS Code projects\\akhzip\\libraries\\libsais.c\"",
   "file": "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/libraries/libsais.c",
   "output": "CMakeFiles/Akh.dir/libraries/libsais.c.obj"
+},
+{
+  "directory": "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Akh.dir\\algorithems.cpp.obj -c \"C:\\Users\\FlexStreet\\Documents\\VS Code projects\\akhzip\\algorithems.cpp\"",
+  "file": "C:/Users/FlexStreet/Documents/VS Code projects/akhzip/algorithems.cpp",
+  "output": "CMakeFiles/Akh.dir/algorithems.cpp.obj"
 }
 ]
