@@ -1,3 +1,3 @@
-C:/Users/FlexStreet/Documents/VS Code projects/akhzip/build/CMakeFiles/Akh.dir
-C:/Users/FlexStreet/Documents/VS Code projects/akhzip/build/CMakeFiles/edit_cache.dir
-C:/Users/FlexStreet/Documents/VS Code projects/akhzip/build/CMakeFiles/rebuild_cache.dir
+/Users/eldar/Documents/vs code/lesgo akhzip/AkhZIP/build/CMakeFiles/Akh.dir
+/Users/eldar/Documents/vs code/lesgo akhzip/AkhZIP/build/CMakeFiles/edit_cache.dir
+/Users/eldar/Documents/vs code/lesgo akhzip/AkhZIP/build/CMakeFiles/rebuild_cache.dir
