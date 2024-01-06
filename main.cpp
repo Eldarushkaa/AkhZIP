@@ -1,5 +1,5 @@
 #include "algorithems.h"
-#include "libraries\libsais.h"
+#include "libraries/libsais.h"
 #include "writing.h"
 #include <iostream>
 #include <fstream>
@@ -49,14 +49,22 @@ int main(){
     
     // buffer = bwt(buffer, 10);
     // std::cout << buffer << std::endl;
-    std::ifstream is("C:\\Users\\FlexStreet\\Documents\\VS Code projects\\akhzip\\enwik8", std::ios::binary);
+    std::string file_name = "/Users/eldar/Documents/vs code/lesgo akhzip/AkhZIP/enwik8";
+    std::ifstream is(file_name, std::ios::binary);
+    if (!is.is_open()){
+        std::cout << "Sry no " << file_name << std::endl;
+        return 0;
+    }
     int32_t freq[256];
 
-    int32_t length = 400000;
-    std::vector<uint8_t> buffer(std::istreambuf_iterator<char>(is), {});
+    int32_t length = 100000;
+    std::vector<uint8_t> buffer(length);
+    is.read(reinterpret_cast<char*>(&buffer.front()), buffer.size()*sizeof(uint8_t));
+    is.close();
     std::cout << "buffer size = " << buffer.size() << std::endl;
     uint8_t lesgo[length];
     for (int i = 0; i < length; i++) lesgo[i] = buffer[i];
+    std::cout << lesgo << std::endl;
     // for (int i = length - 4; i < length; i++)
     //     std::cout << "!i = " << i << " lesgo[i] = " << (int)lesgo[i] << std::endl;
     int32_t extraspace[length];
@@ -97,5 +105,6 @@ int main(){
     // reverse_mtf(test, test, 8, alphabet);
     // for (int i = 0; i < 8; i++) std::cout << test[i] << std::endl;
     // // for (int i = 0; i < 0x100; i++) std::cout << alphabet[i] << " ";
+
     return 0;
 }
