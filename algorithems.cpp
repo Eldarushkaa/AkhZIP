@@ -102,8 +102,8 @@ int32_t huffman(uint8_t * T, std::vector<bool>& U, int32_t n, int32_t * freq){
 
     std::string test_dict_to_string;
     huffman_dict_to_string(symb_code, test_dict_to_string);
-    std::cout << test_dict_to_string << std::endl;
-
+    for (auto ch : test_dict_to_string) std::cout << (int)ch << " ( " << ch << " )";
+    std::cout << test_dict_to_string.size() << std::endl;
     return 0;
 }
 
@@ -131,6 +131,19 @@ int32_t huffman_string_to_dict(std::vector<std::vector<bool> >& symb_code, std::
 
 
 int32_t binary_vector_to_string(std::vector<bool>& binary, std::string& output){
-    // TODO
+    int bit_count = 0;
+    int8_t ch = 0;
+    for (auto bit : binary){
+        std::cout << bit << std::endl;
+        ch |= (1<<bit_count);
+        bit_count++;
+        if (bit_count == 8){
+            std::cout << (int) ch << std::endl;
+            output.push_back(ch);
+            bit_count = 0;
+            ch = 0;
+        }
+    }
+    if (bit_count > 0) output.push_back(ch);
     return 0;
 }
