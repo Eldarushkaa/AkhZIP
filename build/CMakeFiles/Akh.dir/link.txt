@@ -1,1 +1,3 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Akh.dir/main.cpp.o CMakeFiles/Akh.dir/libraries/libsais.c.o CMakeFiles/Akh.dir/algorithems.cpp.o -o Akh 
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Akh.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Akh.dir/objects.a @CMakeFiles\Akh.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Akh.dir/objects.a -Wl,--no-whole-archive -o Akh.exe -Wl,--out-implib,libAkh.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Akh.dir\linkLibs.rsp
